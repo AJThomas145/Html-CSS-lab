@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body > header {
+    background-color: dodgerblue;
+    padding: 8px;
+}
+
+body > header >h1 {
+    color: white;
+    padding-left: 16px;
+}
+
+body > header > nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+    padding-right: 8px;
+    text-decoration: underline;
+    }
+
+body > header >nav> ul {
+    list-style: none;
+}
+
+body > main {
+    padding-left: 85px;
+    padding-right: 85px;
+}
+
+body > footer {
+    background-color: dodgerblue;
+    color: white;
+    padding: 4px;
+    text-align: center;
+}
